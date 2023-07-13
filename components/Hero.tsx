@@ -1,7 +1,7 @@
-const Home = () => {
+const Hero = () => {
   return (
     <div className="bg-white">Home</div>
   )
 }
 
-export default Home
+export default Hero
