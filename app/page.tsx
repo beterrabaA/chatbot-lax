@@ -1,8 +1,9 @@
-import { Hero } from '@/components'
-import Image from 'next/image'
+import { EmptyState, Hero } from '@/components'
 
 export default function Home() {
   return (
-    <Hero />
+    <div className="hidden h-full lg:block lg:pl-80">
+      <EmptyState />
+    </div>
   )
 }
